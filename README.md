@@ -1,7 +1,10 @@
 # Experiment--05-Implementation-of-flipflops-using-verilog
-### AIM: To implement all the flipflops using verilog and validating their functionality using their functional tables
-### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
-### SOFTWARE REQUIRED:   Quartus prime
+### AIM: 
+To implement all the flipflops using verilog and validating their functionality using their functional tables
+### HARDWARE REQUIRED:  
+PC, Cyclone II , USB flasher
+### SOFTWARE REQUIRED:   
+Quartus prime
 ### THEORY 
 SR Flip-Flop
 SR flip-flop operates with only positive clock transitions or negative clock transitions. Whereas, SR latch operates with enable signal. The circuit diagram of SR flip-flop is shown in the following figure.
@@ -170,37 +173,41 @@ endmodule
 
 ### RTL LOGIC FOR FLIPFLOPS
 
-1. RTL for SR flipflop:
+1. SR flipflop:
 
 ![Screenshot_20230111_011806](https://user-images.githubusercontent.com/118348224/212459056-eb9e5fd5-a998-446b-9773-5594eb748cd1.png)
 
-2. RTL for D flipflop:
+2. D flipflop:
 
 ![Screenshot_20230111_014508](https://user-images.githubusercontent.com/118348224/212459080-01e67926-a312-42ca-9941-d6ca6d35cca5.png)
 
-3. RTL for JK flipflop:
+3. JK flipflop:
 
 ![Screenshot_20230111_012315](https://user-images.githubusercontent.com/118348224/212459074-531c67be-67ac-43f6-bfec-c608727f3854.png)
 
-4. RTL for T flipflop:
+4. T flipflop:
 
 ![Screenshot_20230111_014841](https://user-images.githubusercontent.com/118348224/212459082-266d1dcb-0d94-44a9-acd8-3cb69783fd97.png)
 
 ### TIMING DIGRAMS FOR FLIP FLOPS
 
 1. SR flipflop:
+
 ![Screenshot_20230115_102251](https://user-images.githubusercontent.com/118348224/212554660-adc96bbf-e216-4ac3-a078-5d3b72f512de.png)
 
 
 2. D flipflop:
+
 ![Screenshot_20230115_104419](https://user-images.githubusercontent.com/118348224/212556229-6105cfb2-e167-4b48-903e-77ec1ba0db9a.png)
 
 
 3. JK flipflop:
+
 ![Screenshot_20230115_105007](https://user-images.githubusercontent.com/118348224/212556536-c5878554-2fe9-44c9-af11-a8fb45b3e1a7.png)
 
 
 4. T flipflop:
+
 ![Screenshot_20230115_105433](https://user-images.githubusercontent.com/118348224/212556745-d0720713-ab0d-4135-8e83-67252d3ad174.png)
 
 
