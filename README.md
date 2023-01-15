@@ -188,14 +188,22 @@ endmodule
 
 ### TIMING DIGRAMS FOR FLIP FLOPS
 
-1. RTL for SR flipflop:
+1. SR flipflop:
+![Screenshot_20230115_102251](https://user-images.githubusercontent.com/118348224/212554660-adc96bbf-e216-4ac3-a078-5d3b72f512de.png)
 
-2. RTL for D flipflop:
 
-3. RTL for JK flipflop:
+2. D flipflop:
+![Screenshot_20230115_104419](https://user-images.githubusercontent.com/118348224/212556229-6105cfb2-e167-4b48-903e-77ec1ba0db9a.png)
 
-4. RTL for T flipflop:
+
+3. JK flipflop:
+![Screenshot_20230115_105007](https://user-images.githubusercontent.com/118348224/212556536-c5878554-2fe9-44c9-af11-a8fb45b3e1a7.png)
+
+
+4. T flipflop:
+![Screenshot_20230115_105433](https://user-images.githubusercontent.com/118348224/212556745-d0720713-ab0d-4135-8e83-67252d3ad174.png)
+
 
 ### RESULTS 
 
-Thus, implementation of SR, JK, D and T flipflops using nand gates are done sucessfully.
+Thus, implementation of SR , JK , D and T flipflops using nand gates are done sucessfully.
