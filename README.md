@@ -1,10 +1,10 @@
 # Experiment--05-Implementation-of-flipflops-using-verilog
 ### AIM: 
-To implement all the flipflops using verilog and validating their functionality using their functional tables
+To implement all the flipflops using verilog and validating their functionality using their functional tables.
 ### HARDWARE REQUIRED:  
-PC, Cyclone II , USB flasher
+PC, Cyclone II , USB flasher.
 ### SOFTWARE REQUIRED:   
-Quartus prime
+Quartus prime.
 ### THEORY 
 SR Flip-Flop
 SR flip-flop operates with only positive clock transitions or negative clock transitions. Whereas, SR latch operates with enable signal. The circuit diagram of SR flip-flop is shown in the following figure.
@@ -20,7 +20,7 @@ The following table shows the state table of SR flip-flop.
 
 
 Here, Qtt & Qt+1t+1 are present state & next state respectively. So, SR flip-flop can be used for one of these three functions such as Hold, Reset & Set based on the input conditions, when positive transition of clock signal is applied. The following table shows the characteristic table of SR flip-flop.
-Present Inputs	Present State	Next State
+Present Inputs,	Present State &	Next State.
 
 
 ![image](https://user-images.githubusercontent.com/36288975/167908180-5fc9d589-1cb5-41f5-b2c8-927e04f5f387.png)
@@ -68,7 +68,7 @@ The following table shows the state table of JK flip-flop.
 ![image](https://user-images.githubusercontent.com/36288975/167908575-59c35afb-50d3-46a2-888c-47478a3179d5.png)
 
 Here, Qtt & Qt+1t+1 are present state & next state respectively. So, JK flip-flop can be used for one of these four functions such as Hold, Reset, Set & Complement of present state based on the input conditions, when positive transition of clock signal is applied. The following table shows the characteristic table of JK flip-flop.
-Present Inputs	Present State	Next State
+Present Inputs,	Present State &	Next State.
 
 ![image](https://user-images.githubusercontent.com/36288975/167908664-c854ffe9-0bd3-44c2-bfa6-e53928181c69.png)
 
@@ -94,9 +94,8 @@ This circuit has single input T and two outputs Qtt & Qtt’. The operation of T
 The following table shows the state table of T flip-flop.
 
 
-
 Here, Qtt & Qt+1t+1 are present state & next state respectively. So, T flip-flop can be used for one of these two functions such as Hold, & Complement of present state based on the input conditions, when positive transition of clock signal is applied. The following table shows the characteristic table of T flip-flop.
-Inputs	Present State	Next State
+Present Inputs,	Present State	and Next State.
 
 
 ![image](https://user-images.githubusercontent.com/36288975/167909015-53aa9450-3f28-4202-887a-79d88228f8a0.png)
@@ -171,6 +170,7 @@ nand(Q,A,Qbar);
 nand(Qbar,B,Q);
 endmodule
 ```
+### OUTPUT
 
 ### RTL LOGIC FOR FLIPFLOPS
 
