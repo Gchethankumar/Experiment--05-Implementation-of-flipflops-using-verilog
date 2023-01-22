@@ -1,10 +1,16 @@
 # Experiment--05-Implementation-of-flipflops-using-verilog
 ### AIM: 
+
 To implement all the flipflops using verilog and validating their functionality using their functional tables.
-### HARDWARE REQUIRED:  
+
+### Hardware required:  
+
 PC, Cyclone II , USB flasher.
-### SOFTWARE REQUIRED:   
+
+### Software required:   
+
 Quartus prime.
+
 ### THEORY 
 SR Flip-Flop
 SR flip-flop operates with only positive clock transitions or negative clock transitions. Whereas, SR latch operates with enable signal. The circuit diagram of SR flip-flop is shown in the following figure.
@@ -104,7 +110,8 @@ From the above characteristic table, we can directly write the next state equati
 Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
-### Procedure
+### Procedure:
+
 ```
 1.Using nand gates and wires construct sr flip flop.
 
@@ -115,7 +122,8 @@ Q(t+1)=T′Q(t)+TQ(t)′
 4.End the program.
 ```
 
-### PROGRAM 
+### Program:
+
 ```
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 Developed by: G.Chethan Kumar 
@@ -170,7 +178,7 @@ nand(Q,A,Qbar);
 nand(Qbar,B,Q);
 endmodule
 ```
-### OUTPUT
+### Output:
 
 ### RTL LOGIC FOR FLIPFLOPS
 
@@ -190,7 +198,7 @@ endmodule
 
 ![Screenshot_20230111_014841](https://user-images.githubusercontent.com/118348224/212459082-266d1dcb-0d94-44a9-acd8-3cb69783fd97.png)
 
-### TIMING DIGRAMS FOR FLIP FLOPS
+### Timing diagram for flipflops
 
 1. SR flipflop:
 
@@ -212,6 +220,6 @@ endmodule
 ![Screenshot_20230115_105433](https://user-images.githubusercontent.com/118348224/212556745-d0720713-ab0d-4135-8e83-67252d3ad174.png)
 
 
-### RESULTS 
+### Result:
 
-Thus, The implementation of SR , JK , D and T flipflops using nand gates are done sucessfully.
+Thus, the implementation of SR , JK , D and T flipflops using nand gates are done sucessfully.
